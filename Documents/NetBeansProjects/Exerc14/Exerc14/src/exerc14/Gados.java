@@ -36,7 +36,7 @@ public class Gados {
         {
             return alimento;
         }
-        public void setAbate(int idade, int leite, int alimento)
+        public void setAbate(int idade, double leite, double alimento)
         {
             if (idade > 5 || leite < 40 || leite > 50 && leite < 70 && alimento > 50)
             {
